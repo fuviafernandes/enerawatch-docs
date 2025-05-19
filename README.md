@@ -2,7 +2,7 @@
 
 **EneraWatch** is a SaaS platform designed to help renewable energy operators monitor their assets in real time, track performance KPIs, and apply predictive maintenance strategies.
 
-This repository simulates how a technical writer would structure product documentation for a digital energy management system — inspired by real platforms like HxGN EAM and BaxEnergy's Farsight®.
+This repository simulates how a technical writer would structure product documentation for a digital energy management system.
 
 ---
 
