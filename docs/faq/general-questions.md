@@ -1,59 +1,37 @@
-# Monitoring KPIs on EneraWatch
+# Frequently Asked Questions (FAQ)
 
-**Content:** KPI dashboard usage  
-**Task:** Track performance indicators for renewable energy assets  
-**Role:** Operations manager, plant operator  
-**Tool:** EneraWatch Monitoring Dashboard
-
----
-
-## 🟢 Overview
-
-The EneraWatch dashboard provides live insights into the performance of your renewable assets. KPIs (Key Performance Indicators) include real-time power output, asset availability, fault status, and energy generation trends.
+**Content:** Common questions about EneraWatch functionality  
+**Task:** Clarify concepts and usage patterns  
+**Role:** All users (operators, managers, admins)  
+**Tool:** EneraWatch Web Platform
 
 ---
 
-## 🟢 Access the Dashboard
+## ❓ What is an “Asset” in EneraWatch?
 
-1. From the top navigation bar, click **Monitoring > Dashboard**
-2. Select your asset group or site from the dropdown
-3. Use filters to narrow results by:
-   - Time range (last 24h, week, month)
-   - Asset type (solar, wind, hybrid)
-   - Status (Active, Offline, Warning)
+An asset is any physical device that generates or stores renewable energy — such as a wind turbine, solar panel array, or battery system — that is connected to the EneraWatch platform.
 
 ---
 
-##  Key Indicators Explained
+## ❓ What does “Offline” mean?
 
-| KPI | Description |
-|-----|-------------|
-| **Live Output (kW)** | Real-time energy being produced |
-| **Asset Availability (%)** | % of time the asset was active and healthy |
-| **Daily Generation (kWh)** | Total energy produced over the last 24 hours |
-| **Performance Ratio** | Efficiency score based on expected vs. actual output |
+“Offline” means the asset is not transmitting data. This may be due to:
+- Network issues
+- Power loss
+- Gateway not synced
+- Asset being in scheduled maintenance
 
----
-
-##  Exporting Reports
-
-1. Click the **Download** icon in the top right of the dashboard
-2. Choose format: PDF or CSV
-3. Select whether to include charts, raw data, or both
-
- **Tip:** Use the “Scheduled Reports” feature to receive reports via email every day or week.
+Check the [Troubleshooting guide](../troubleshooting/common-errors.md) for resolution steps.
 
 ---
 
-##  Troubleshooting
+## ❓ How often is the data updated?
 
-- If data appears outdated, click **Refresh** or check the last sync time.
-- If KPIs show “0” or “N/A”, verify:
-  - The asset is online
-  - The sensor is transmitting data
-  - There are no system-wide outages
+Most metrics are updated every 60 seconds. Some KPIs, such as energy generation per day, are updated hourly. You can check the **Last Sync Time** in the dashboard footer.
 
 ---
 
- **Next guide:** [Troubleshooting Common Errors](../troubleshooting/common-errors.md)
+## ❓ Can I access the platform on mobile?
+
+Yes, EneraWatch is responsive and optimized for most mobile browsers. We recommend using
 
