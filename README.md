@@ -25,7 +25,7 @@ This repository simulates how a technical writer would structure product documen
 ## 🛠 Tools & Techniques
 
 This documentation applies:
-- CTRT (Content, Task, Role, Tool) writing methodology
+- CTRT (Concept, Task, Reference, Troubleshooting) writing methodology
 - User-Centered Design (UCD) principles
 - Markdown for technical writing
 - GitHub for collaboration and version control
